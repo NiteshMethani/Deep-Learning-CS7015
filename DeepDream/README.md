@@ -88,4 +88,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 
 
-![Alt text](images/1.jpg?raw=true "Title")
+![Alt text](images/1.png?raw=true "Title")
