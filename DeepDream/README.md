@@ -87,5 +87,8 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 * etc
 
 
-
-![Alt text](images/1.png?raw=true "Title")
+<p float="left">
+  <img src="images/1.png" width="100" />
+  <img src="images/2.png" width="100" /> 
+  <img src="images/3.png" width="100" />
+</p>
