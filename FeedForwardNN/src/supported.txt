@@ -1,0 +1,15 @@
+# The supported features are :
+
+--anneal : True, False
+--opt: gd,momentum,adam,rmsprop
+--loss: ce,sq
+--activation: tanh, sigmoid
+
+Note :
+We are storing the weights of the kaggle submissions in ../logs/kaggle/<model_no>/parameters/
+Source code for all the experiments and kaggle submissions are in the Assignment1.ipynb notebook.
+The best model is in ../logs/kaggle/5/parameters/
+
+Weights are stored in .csv files where each cell(if opened in Excel viewer) is a weight matrix.
+Though the weights are stored, we're unable to provide you with the pretrain parameter in run.sh. 
+One might use the pandas dataframe to read these weights and use them. 
