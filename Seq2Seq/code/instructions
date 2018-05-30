@@ -1,0 +1,36 @@
+In report:
+  - writtent the mathematical formulation for Basic Encoder as well as Hierarchial encoder
+  - plots for learning curves for Basice Encoder model with and without attention mechanism
+  - reported the summaries for different models
+  - reported the effect of attention mechanism
+  - derived the mathematical formulation for hierarchical model with attention mechanism
+  - visualised the attention weights
+  - reported the effect of using dropout
+  - compared validation loss and BLEU score as early stopping criteria
+  - compared beam search with greedy search
+  - reported the effect of beam width
+
+In basic_decoder.ipynb notebook, we have implemented the following:
+  - tanh non-linearities for the LSTM layers
+  - bidirectional LSTM cells
+  - used Adam Optimizer on the entire training dataset
+  - used dropout on the output of the encoder with keep probability 0.8
+  - used different embedding matrices for source tables (/data/table_vec.npy) and target descriptions (/data/summary_vec.npy)
+  - Early Stopping
+  - used BLEU score as evaluation metric
+  - also used perplexity as evaluation metric
+
+We have modified tensorflow's NMT model (https://github.com/tensorflow/nmt) for experimenting with advanced concepts. 
+The modified nmt code can be found in /code/nmt/ directory.
+
+To execute the code, run the following command:
+./experiments.sh
+
+The code for plotting the graphs is given in the /code/RNN_plots.ipynb notebook.
+
+The models/checkpoints can be accessed by clicking on the following link:
+https://drive.google.com/drive/folders/1VTZVQnZkBNdSV2KgM7zircEBfdM-TWV1
+
+
+The hyperparameter setting for our best model is given in Section 12 in the report. The final test bleu score is 0.72 at the time of submission.
+The summaries of the test.combined are stored in /test_summaries.txt file
