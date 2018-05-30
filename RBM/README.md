@@ -19,9 +19,11 @@ wget -P data/fashion http://fashion-mnist.s3-website.eu-central-1.amazonaws.com/
 wget -P data/fashion http://fashion-mnist.s3-website.eu-central-1.amazonaws.com/t10k-images-idx3-ubyte.gz
 wget -P data/fashion http://fashion-mnist.s3-website.eu-central-1.amazonaws.com/t10k-labels-idx1-ubyte.gz
 ```
-* Execute `run.sh` script
 
 ## Running the tests
+* Execute `run.sh` script
+
+## Experiments
 Please find all the experiments that we conducted in the `report.pdf`.
 
 ## Authors
