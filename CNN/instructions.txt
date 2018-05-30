@@ -1,0 +1,13 @@
+To train the CNN, execute run.sh
+
+Supported Parameters in train.py are:
+Xavier, He and random weight initialisation
+batch_size
+learning rate
+
+We have implemented Batch Normalization,dropout, data augmentation, guided backpropagation(model needs to be trained), t-SNE visualization and fooling.
+The respective ipython notebooks are in /code directory.
+
+In the /kaggle directory, we have included our best submissions and the tensorflow checkpoints.
+
+We also performed all these experiments with MNIST dataset also.
