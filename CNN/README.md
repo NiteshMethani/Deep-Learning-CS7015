@@ -6,7 +6,7 @@ We have also implemented Batch Normalization,dropout, data augmentation, guided 
 ### Installing
 * Clone this repository.
 * Create a `data` directory  in the root directory.
-* Download the `.csv` files from [here]()
+* Download the `.csv` files from [here](https://www.kaggle.com/zalando-research/fashionmnist/data)
 
 ## Running the tests
 Execute the `code/run.sh` script.
@@ -20,5 +20,4 @@ Please find all the experiments that we conducted in the `report.pdf`.
 
 
 ## Acknowledgments
-* We have modified tensorflow's [NMT Model](https://github.com/tensorflow/nmt) for experimenting with advanced concepts. The modified nmt code can be found in /code/nmt/ directory.
-* We also used [Hvass-Labs](https://github.com/Hvass-Labs/TensorFlow-Tutorials) as reference. It's awesome! Do check it out.
+* All the acknowledgements can be found in the Reference section of `report.pdf`
