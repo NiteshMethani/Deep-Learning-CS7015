@@ -10,6 +10,11 @@ Python 2.7.12
 Numpy 1.14.1
 ```
 
+### Installing
+* Clone this repository.
+* Create a `data` directory  in the root directory.
+* Download the `.csv` files from [here](https://www.kaggle.com/zalando-research/fashionmnist/data)
+
 ## Running the tests
 
 * Execute the `src/run.sh` script.
