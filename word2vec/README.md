@@ -8,13 +8,14 @@ In this assignment we trained word representations for Bengali language.
 * The test cases are present in the folder named testcases.
 
 ## Observations 
-<img src = "observations/cbow.png" />
-<img src = "observations/glove.png" />
-<img src = "observations/semantic.png" />
-<img src = "observations/skipgram.png" />
-<img src = "observations/syntactic.png" />
-<img src = "observations/word.png" />
+<img src = "observations/cbow.png" width="600" height="500"/>
+<img src = "observations/glove.png" width="600" height="500" />
+<img src = "observations/semantic.png" width="600" height="500" />
+<img src = "observations/skipgram.png" width="600" height="500" />
+<img src = "observations/syntactic.png" width="600" height="500" />
+<img src = "observations/word.png" width="600" height="500" />
 
+For more details, refer to Section 10 of the `report.pdf`
 ## Experiments
 Please find all the experiments that we conducted in the `report.pdf`.
 
